@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ec88f7246372f46917ea5f8ebd713d, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  _enemySprite:
+  - sprite: {fileID: 21300000, guid: 347d8b0cdc4dae841b150a197e8aa5ee, type: 3}
+    isRound: 0
+    physicsMaterial2D: {fileID: 6200000, guid: ff2424d50afa7bb4f800e08e31640431, type: 2}
+  - sprite: {fileID: 21300000, guid: ec262d2dc96e11245971cd730dbf1cf0, type: 3}
+    isRound: 1
+    physicsMaterial2D: {fileID: 6200000, guid: ff2424d50afa7bb4f800e08e31640431, type: 2}
+  _enemyCount: 5
+  _minScale: 0.01
+  _maxScale: 0.05
+  _minSpeed: 4
+  _maxSpeed: 7
+  _minRotateSpeed: -5
+  _maxRotateSpeed: 5
